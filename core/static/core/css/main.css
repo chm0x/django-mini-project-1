@@ -5,6 +5,29 @@ main{
     --jumbotron-padding-y: 3rem;
 }
 
+#logout-form {
+    display: inline;
+}
+
+#logout-form button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+}
+.btn-logout{
+    background:none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+}
+form .btn-cerrar{
+    color : white;
+    text-decoration: none;
+}
+
 .jumbotron {
     padding-top: var(--jumbotron-padding-y);
     padding-bottom: var(--jumbotron-padding-y);
@@ -42,3 +65,4 @@ footer p {
 .box-shadow { 
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); 
 }
+
