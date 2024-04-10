@@ -25,6 +25,7 @@ urlpatterns = [
     path('pages/', include(pages_patterns)),
     # Auth Path
     path('accounts/', include('django.contrib.auth.urls')),
+    path('accounts/', include('registration.urls')),
     
     #Admin Path
     path('admin/', admin.site.urls),
